@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS CRUD Example</title>
+</head>
+<body>
+    <h2>User Management</h2>
+    <form id="userForm">
+        <input type="hidden" id="userId">
+        <input type="text" id="userName" placeholder="Enter Name" required>
+        <button type="submit" id="submitBtn">Add User</button>
+    </form>
+
+    <table border="1" style="margin-top: 20px;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="userTableBody"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
